@@ -14,7 +14,7 @@ import patter6 from '../assets/images/pattar/Logo (11).png'
 export const Testimonial = () => {
   return (
     <>
-    <section id='testimonialSec' className='py-5 font-serif'>
+    <section id='testimonialSec' className='py-5 font-serif cursor-pointer'>
         <div className="container">
         <div className='flex justify-center align-items-center py-2'>
                     <img className='img-fluid' src={fram} alt="images" />
@@ -23,9 +23,9 @@ export const Testimonial = () => {
 
                 <h3 className='servicesHeadin pb-4'>Client Feedback</h3>
             <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 portRes">
 
-                    <div className='bg-[#FFF5EF] rounded-md shadow-md p-6'>
+                    <div className='bg-[#FFF5EF] rounded-md shadow-md p-6 portResImg'>
                      <div className='flex align-items-center py-4'>
                         <div> <img className='img-fluid' src={clint1} alt="images" /></div>
 
@@ -38,9 +38,9 @@ export const Testimonial = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 portRes">
 
-                <div className='bg-[#FFF5EF] rounded-md shadow-md p-6'>
+                <div className='bg-[#FFF5EF] rounded-md shadow-md p-6 portResImg'>
                      <div className='flex align-items-center py-4'>
                         <div> <img className='img-fluid' src={clint2} alt="images" /></div>
 
@@ -53,9 +53,9 @@ export const Testimonial = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 portRes">
 
-                <div className='bg-[#FFF5EF] rounded-md shadow-md p-6'>
+                <div className='bg-[#FFF5EF] rounded-md shadow-md p-6 portResImg'>
                      <div className='flex align-items-center py-4'>
                         <div> <img className='img-fluid' src={clint3} alt="images" /></div>
 
@@ -75,37 +75,35 @@ export const Testimonial = () => {
 
 
     <section className='py-5'>
-        <div className="container">
-        <div className='flex justify-center align-items-center py-2'>
-                    <img className='img-fluid' src={fram} alt="images" />
-                    <small className='aboutMe py-2'>Partners</small>
-                </div>
+  <div className="container">
+    <div className='flex justify-center align-items-center py-2'>
+      <img className='img-fluid' src={fram} alt="images" />
+      <small className='aboutMe py-2'>Partners</small>
+    </div>
 
-                <h3 className='servicesHeadin pb-4'>REPUTED PARTNER</h3>
-            <div className="row">
-
-                <div className="col-lg-2">
-                    <img className='img-fluid shadow-md' src={patter1} alt="images" />
-                </div>
-                <div className="col-lg-2">
-                    <img className='img-fluid shadow-md' src={patter2} alt="images" />
-                </div>
-                <div className="col-lg-2">
-                    <img className='img-fluid shadow-md' src={patter3} alt="images" />
-                </div>
-                <div className="col-lg-2">
-                    <img className='img-fluid shadow-md' src={patter4} alt="images" />
-                </div>
-                <div className="col-lg-2">
-                    <img className='img-fluid shadow-md' src={patter5} alt="images" />
-                </div>
-                <div className="col-lg-2">
-                    <img className='img-fluid shadow-md' src={patter6} alt="images" />
-                </div>
-
-            </div>
-        </div>
-    </section>
+    <h3 className='servicesHeadin pb-4'>REPUTED PARTNER</h3>
+    <div className="row">
+      <div className="col-6 col-md-4 col-lg-2">
+        <img className='img-fluid shadow-md' src={patter1} alt="images" />
+      </div>
+      <div className="col-6 col-md-4 col-lg-2">
+        <img className='img-fluid shadow-md' src={patter2} alt="images" />
+      </div>
+      <div className="col-6 col-md-4 col-lg-2">
+        <img className='img-fluid shadow-md' src={patter3} alt="images" />
+      </div>
+      <div className="col-6 col-md-4 col-lg-2">
+        <img className='img-fluid shadow-md' src={patter4} alt="images" />
+      </div>
+      <div className="col-6 col-md-4 col-lg-2">
+        <img className='img-fluid shadow-md' src={patter5} alt="images" />
+      </div>
+      <div className="col-6 col-md-4 col-lg-2">
+        <img className='img-fluid shadow-md' src={patter6} alt="images" />
+      </div>
+    </div>
+  </div>
+</section>
     </>
   )
 }

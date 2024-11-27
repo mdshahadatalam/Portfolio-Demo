@@ -26,12 +26,12 @@ export const Contact = () => {
                     <input className='w-[44%] h-[70px] shadow-md rounded-md my-2 ms-2 Contact' type="text"  placeholder='subject'/>
 
                     <div>
-                    <textarea className='w-[89%] h-[194px] shadow-md rounded-md Contact my-2 ms-2' name="" id="" placeholder='Your messages'>
+                    <textarea className='w-[89%] h-[194px]  shadow-md rounded-md Contact my-2 ms-2' name="" id="" placeholder='Your messages'>
                     
                     </textarea>
                     </div>
 
-                    <button className='sendBtn shadow-md hover:bg-black hover:text-white '>Send Me Message</button>
+                    <button className='sendBtn shadow-md  hover:bg-black hover:text-white '>Send Me Message</button>
                   </form> 
                 </div>
                 <div className="col-lg-3 p-0">

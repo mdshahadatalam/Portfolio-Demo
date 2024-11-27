@@ -11,40 +11,39 @@ export const Portfolio = () => {
   return (
     <>
     <section id='portfolioSection' className='py-5 font-serif'>
-        <div className="container">
-        <div className='flex justify-center align-items-center py-2'>
-                    <img className='igm-fluid' src={fram} alt="images" />
-                    <small className='aboutMe py-2'>My Portfolio</small>
-                </div>
+    <div className="container">
+        <div className='text-center py-2'>
+            <img className='img-fluid' src={fram} alt="Portfolio Frame" />
+            <small className='aboutMe py-2'>My Portfolio</small>
+        </div>
 
-                <h3 className='servicesHeadin pb-4'>VISIT MY PORTFOLIO</h3>
-            <div className="row portfolioRes">
-                <div className="col-lg-4 portRes">
-                    <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder6} alt="images" />
-                </div>
-                <div className="col-lg-4 portRes">
-                    <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder3} alt="images" />
-                </div>
-                <div className="col-lg-4 portRes">
-                    <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder2} alt="images" />
-                </div>
+        <h3 className='servicesHeadin pb-4 text-center'>VISIT MY PORTFOLIO</h3>
 
+        <div className="row portfolioRes">
+            <div className="col-12 col-sm-6 col-lg-4 portRes">
+                <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder6} alt="Portfolio Item 1" />
             </div>
-
-            <div className="row portfolioRes py-3">
-                <div className="col-lg-4 portRes">
-                    <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder5} alt="images" />
-                </div>
-                <div className="col-lg-4 portRes">
-                    <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder3} alt="images" />
-                </div>
-                <div className="col-lg-4 portRes">
-                    <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder4} alt="images" />
-                </div>
-
+            <div className="col-12 col-sm-6 col-lg-4 portRes">
+                <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder3} alt="Portfolio Item 2" />
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4 portRes">
+                <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder2} alt="Portfolio Item 3" />
             </div>
         </div>
-    </section>
+
+        <div className="row portfolioRes py-3">
+            <div className="col-12 col-sm-6 col-lg-4 portRes">
+                <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder5} alt="Portfolio Item 4" />
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4 portRes">
+                <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder3} alt="Portfolio Item 5" />
+            </div>
+            <div className="col-12 col-sm-6 col-lg-4 portRes">
+                <img className='img-fluid mt-3 shadow-md portResImg' src={plceholder4} alt="Portfolio Item 6" />
+            </div>
+        </div>
+    </div>
+</section>
     </>
   )
 }

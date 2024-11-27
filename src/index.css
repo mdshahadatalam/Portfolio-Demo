@@ -140,37 +140,19 @@ color: var(--later-text);
 
 /* protfolio  */
 
+.portRes {
+    margin-bottom: 15px; /* Add spacing between rows */
+}
 
-@media (max-width: 991.98px) {
-    .portfolioRes{
-        flex-direction: row;
-    }
-    .portRes{
-        width: 50%;
-    }
-    .portResImg{
-        width: 100%;
-    }
-  }
-  
-  /* For medium screens (md) */
-  @media (max-width: 768px) {
-    .portfolioRes{
-        flex-direction: row;
-    }
-    .portRes{
-        width: 50%;
-    }
-    .portResImg{
-        width: 100%;
-    }
-    
-  }
-  
-  /* For small screens (sm) */
-  /* @media (min-width: 576px) and (max-width: 767px) {
-   
-  } */
+.portResImg {
+    transition: transform 0.3s; /* Add a hover effect */
+}
+
+.portResImg:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+
   
 
   /* testimonial  */

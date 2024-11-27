@@ -12,7 +12,7 @@ import fram from '../assets/images/Frame (3).png'
 export const Services = () => {
   return (
     <>
-    <section id='serviceSection' className='py-5 font-serif'>
+    <section id='serviceSection' className='py-5 font-serif cursor-pointer'>
         <div className="container">
 
               <div className='flex justify-center align-items-center py-2'>
@@ -23,8 +23,8 @@ export const Services = () => {
                 <h3 className='servicesHeadin pb-4'>Services I offer</h3>
 
             <div className="row">
-                <div className="col-lg-3">
-                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3'>
+                <div className="col-lg-3 portRes">
+                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3 portResImg'>
 
                         <div className='flex justify-center'>
                         <img className='img-fluid py-3' src={serIcon} alt="images" />
@@ -33,8 +33,8 @@ export const Services = () => {
                         <p className='serDami'>Hen our power of choice is untrammelled and when nothing prevents our being able</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
-                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3'>
+                <div className="col-lg-3 portRes">
+                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3 portResImg'>
 
                         <div className='flex justify-center'>
                         <img className='img-fluid py-3' src={serIcon2} alt="images" />
@@ -43,8 +43,8 @@ export const Services = () => {
                         <p className='serDami'>Hen our power of choice is untrammelled and when nothing prevents our being able</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
-                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3'>
+                <div className="col-lg-3 portRes">
+                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3 portResImg'>
 
                         <div className='flex justify-center'>
                         <img className='img-fluid py-3' src={serIcon3} alt="images" />
@@ -53,8 +53,8 @@ export const Services = () => {
                         <p className='serDami'>Hen our power of choice is untrammelled and when nothing prevents our being able</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
-                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3'>
+                <div className="col-lg-3 portRes">
+                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3 portResImg'>
 
                         <div className='flex justify-center'>
                         <img className='img-fluid py-3' src={serIcon4} alt="images" />
@@ -68,7 +68,7 @@ export const Services = () => {
 
             <div className="row pt-5">
                 <div className="col-lg-3">
-                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3'>
+                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3 portResImg'>
 
                         <div className='flex justify-center'>
                         <img className='img-fluid py-3' src={serIcon5} alt="images" />
@@ -77,8 +77,8 @@ export const Services = () => {
                         <p className='serDami'>Hen our power of choice is untrammelled and when nothing prevents our being able</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
-                    <div className='shadow-md bg-white text-center p-2 py-3 rounded-md mt-3'>
+                <div className="col-lg-3 portRes">
+                    <div className='shadow-md bg-white text-center p-2 py-3 rounded-md mt-3 portResImg'>
 
                         <div className='flex justify-center'>
                         <img className='img-fluid py-3' src={serIon6} alt="images" />
@@ -87,8 +87,8 @@ export const Services = () => {
                         <p className='serDami'>Hen our power of choice is untrammelled and when nothing prevents our being able</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
-                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3'>
+                <div className="col-lg-3 portRes">
+                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3 portResImg'>
 
                         <div className='flex justify-center'>
                         <img className='img-fluid py-3' src={serIcon7} alt="images" />
@@ -97,8 +97,8 @@ export const Services = () => {
                         <p className='serDami'>Hen our power of choice is untrammelled and when nothing prevents our being able</p>
                     </div>
                 </div>
-                <div className="col-lg-3">
-                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3'>
+                <div className="col-lg-3 portRes">
+                    <div className='shadow-md bg-white text-center p-3 rounded-md mt-3 portResImg'>
 
                         <div className='flex justify-center'>
                         <img className='img-fluid py-3' src={serIcon8} alt="images" />

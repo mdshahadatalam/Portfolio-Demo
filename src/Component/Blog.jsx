@@ -20,7 +20,9 @@ export const Blog = () => {
 
             <div className="col-lg-4">
                 <div className='shadow-md rounded-md mt-3'>
+                    <div className='flex justify-center'>
                     <img className='img-fluid' src={blog1} alt="images" />
+                    </div>
                     <small className='january py-2 px-4 d-inline-block'>20 January, 2023</small>
 
                     <p className='become py-2 px-4'>Become a UX/UI Designer With Career Foundry.</p>
@@ -32,7 +34,9 @@ export const Blog = () => {
             </div>
             <div className="col-lg-4">
             <div className='shadow-md rounded-md mt-3'>
-                    <img className='img-fluid' src={blog2} alt="images" />
+                   <div className='flex justify-center'>
+                   <img className='img-fluid' src={blog2} alt="images" />
+                   </div>
                     <small className='january py-2 px-4 d-inline-block'>15 January, 2023</small>
 
                     <p className='become py-2 px-4'>The Best App Development For Your Business Plan.</p>
@@ -44,7 +48,9 @@ export const Blog = () => {
             </div>
             <div className="col-lg-4">
             <div className='shadow-md rounded-md mt-3'>
-                    <img className='img-fluid' src={blog3} alt="images" />
+                   <div className='flex justify-center'>
+                   <img className='img-fluid' src={blog3} alt="images" />
+                   </div>
                     <small className='january py-2 px-4 d-inline-block'>08 January, 2023</small>
 
                     <p className='become py-2 px-4'>The Best Portfolio For Agency Design Thinking</p>
