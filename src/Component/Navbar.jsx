@@ -76,7 +76,7 @@ export const Navbar = () => {
 
        
        <li className="nav-item">
-          <a className="nav-link  font-serif " href="#portfolioSection">Portfolio</a>
+          <a className="nav-link  font-serif" href="#portfolioSection">Portfolio</a>
         </li>
 
         
