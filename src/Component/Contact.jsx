@@ -31,10 +31,14 @@ export const Contact = () => {
                     </textarea>
                     </div>
 
-                    <button className='sendBtn shadow-md  hover:bg-black hover:text-white '>Send Me Message</button>
+  
+                    <div className='py-2 ms-2'>
+                 <button className='download font-serif shadow-md  hover:bg-black hover:text-white '>Send me messages</button>
+                    </div>
                   </form> 
                 </div>
-                <div className="col-lg-3 p-0">
+
+                <div className="col-lg-3 p-2">
                   <div className='flex align-items-center pt-2 cursor-pointer'>
                     <div> <span className='inline-block align-items-center justify-center d-flex text-2xl me-2 w-[58px] h-[58px] shadow-md rounded-md bg-[#FFF5EF] text-[#FF6B00]'><CiLocationOn /></span></div>
                     <div>

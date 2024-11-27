@@ -212,11 +212,11 @@ color: var(--later-text);
  .sendBtn{
 border-radius: 6px;
 padding: 15px 32px;
-width: 234px;
+width: 23%;
 height: 50px;
 background: var(--brand-color);
 font-weight: 500;
-font-size: 21px;
+font-size: 100%;
 line-height: 95%;
 color: var(--white);
  }
